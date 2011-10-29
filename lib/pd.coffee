@@ -10,11 +10,10 @@ root = global ? this
 #   search: $ grep 'pd ' -R lib 
 #
 # @param arguments
-pd = ->
-  pd.history.push arguments
+pd = (args...)->
+  pd.history.push args
   if root.console
-    arguments.callee = arguments.callee.caller
-    console.log( Array.prototype.slice.call(arguments) )
+    console.log(args...)
 
 pd.history = []
 

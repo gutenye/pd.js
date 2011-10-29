@@ -36,7 +36,7 @@ For bpm
 
 for Node.js
 
-	$ npm-g install pd
+	$ npm-g install pdjs
 
 Contributing
 -------------
