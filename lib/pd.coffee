@@ -5,9 +5,9 @@ root = global ? this
 #
 # @example
 #
-#   pd 'hello', 'world'
+#   pd "hello", "world"
 #
-#   search: $ grep 'pd ' -R lib 
+#   search: $ grep "pd " -R lib 
 #
 # @param arguments
 pd = (args...)->
@@ -18,4 +18,6 @@ pd = (args...)->
 pd.history = []
 
 # exports
-root['pd'] = pd
+root["pd"] = pd
+root["debug"] = pd
+root["puts"] = pd
