@@ -1,8 +1,0 @@
-{
-  "name" 				   : "pdjs",
-  "description"    : "A print helper",
-  "version" 			 : "0.0.2",
-  "keywords"       : [],
-  "homepage"       : "http://github.com/GutenYe/pdjs",
-  "author"				 : "Guten <ywzhaifei@gmail.com>",
-	"main"					 : "./lib/pd" }

@@ -1,26 +1,10 @@
 {
-  "name": "pd",
+  "name": "pdjs",
   "summary": "a print for debug",
   "description": "a print for debug",
-  "homepage": "http://github.com/GutenYe/pdjs",
+  "homepage": "http://github.com/gutenye/pdjs",
   "author": "Guten",
-  "version": "0.0.1",
-  "directories": {
-    "lib": "lib"
-  },
-  "bpm:build": {
-    "bpm_libs.js": {
-      "files": [
-        "lib"
-      ]
-    },
-    "pd/bpm_tests.js": {
-      "files": [
-        "spec"
-      ]
-    }
-  },
-  "dependencies:development": {
-    "jasmine": ">= 0"
-  }
+  "version": "1.0.0",
+  "main": "pd.js",
+  "dependencies": {}
 }
