@@ -1,10 +1,9 @@
-"use strict";
-(function(){
+;(function(){
   var pd = console.log.bind(console)
 
-  if (module && module.exports) {
+  if (typeof module === "object" && module.exports) {
     module.exports = pd
-  } else {
-    this["pd"] = pd
+  } else if (typeof window !== "undefined") {
+    window["pd"] = pd
   }
-})()
+}.call(this))
