@@ -4,7 +4,10 @@
   "description": "a print for debug",
   "homepage": "http://github.com/gutenye/pdjs",
   "author": "Guten",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "pd.js",
-  "dependencies": {}
+  "dependencies": {},
+  "files": [
+    "pd.js"
+  ]
 }
