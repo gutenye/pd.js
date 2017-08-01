@@ -1,8 +1,8 @@
 ;(function(){
-  var pd = console.log.bind(console)
+  const pd = console.log.bind(console)
 
   if (typeof module === "object" && module.exports) {
-    module.exports = pd
+    global.pd = pd
   } else if (typeof window !== "undefined") {
     window["pd"] = pd
   }

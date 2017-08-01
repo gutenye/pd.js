@@ -1,13 +1,9 @@
 {
   "name": "pdjs",
-  "summary": "a print for debug",
-  "description": "a print for debug",
-  "homepage": "http://github.com/gutenye/pdjs",
-  "author": "Guten",
-  "version": "1.0.4",
-  "main": "pd.js",
-  "dependencies": {},
+  "description": "pd",
+  "version": "1.0.6",
+  "main": "index.js",
   "files": [
-    "pd.js"
+    "index.js"
   ]
 }
